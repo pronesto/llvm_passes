@@ -1,11 +1,11 @@
 #!/bin/zsh
 
 # Example:
-# ./op_counter.sh ../../tests/sumFirstChar.c
+# ./scev_ex.sh ../../tests/sumFirstChar.c
 
 if [ $# -lt 1 ]
 then
-    echo "Syntax: ./op_counter.sh file.c"
+    echo "Syntax: ./scev_ex.sh file.c"
     exit 1
 else
   # LLVM tools:
