@@ -4,6 +4,8 @@ This pass prints out a table with the opcodes of LLVM instructions in a program.
 
 ## building
 
+For an out-of-the-tree build, do:
+
 ```
 export LLVM_DIR="/Users/fernando/Programs/llvm-project/build/"
 mkdir build
