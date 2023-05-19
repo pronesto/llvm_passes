@@ -30,3 +30,10 @@ export LLVM_DIR="/Users/fernando/Programs/llvm-project/build/"
 $LLVM_DIR/bin/opt -load-pass-plugin libOpCounter.dylib -passes=op-counter \
    -disable-output file.ll
 ```
+
+There is a script that subsumes all these passes. So, to simply run the pass, assuming
+that you have a compiled version of it, just do:
+
+```
+./op_counter.sh file.c
+```
