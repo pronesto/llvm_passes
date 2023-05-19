@@ -1,4 +1,4 @@
-# Count LLVM opcodes
+# Print Induction Variables
 
 This pass prints out the name of each affine induction variable used in a loop, plus the 
 value of its increment.
